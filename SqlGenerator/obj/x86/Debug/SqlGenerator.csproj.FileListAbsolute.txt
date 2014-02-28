@@ -1,0 +1,20 @@
+C:\Projects\SqlGenerator\bin\x86\Debug\SqlGenerator.dll
+C:\Projects\SqlGenerator\bin\x86\Debug\SqlGenerator.pdb
+C:\Projects\SqlGenerator\bin\x86\Debug\DatGenerator.dll
+C:\Projects\SqlGenerator\bin\x86\Debug\DatGenerator.pdb
+C:\Projects\SqlGenerator\bin\x86\Debug\Interop.ADODB.dll
+C:\Projects\SqlGenerator\obj\x86\Debug\SqlGenerator.csprojResolveAssemblyReference.cache
+C:\Projects\SqlGenerator\obj\x86\Debug\Interop.ADODB.dll
+C:\Projects\SqlGenerator\obj\x86\Debug\SqlGenerator.csproj.ResolveComReference.cache
+C:\Projects\SqlGenerator\obj\x86\Debug\SqlGenerator.dll
+C:\Projects\SqlGenerator\obj\x86\Debug\SqlGenerator.pdb
+C:\Projects\Code Generator\SqlGenerator\bin\x86\Debug\SqlGenerator.dll
+C:\Projects\Code Generator\SqlGenerator\bin\x86\Debug\SqlGenerator.pdb
+C:\Projects\Code Generator\SqlGenerator\bin\x86\Debug\DatGenerator.dll
+C:\Projects\Code Generator\SqlGenerator\bin\x86\Debug\DatGenerator.pdb
+C:\Projects\Code Generator\SqlGenerator\bin\x86\Debug\Interop.ADODB.dll
+C:\Projects\Code Generator\SqlGenerator\obj\x86\Debug\SqlGenerator.csprojResolveAssemblyReference.cache
+C:\Projects\Code Generator\SqlGenerator\obj\x86\Debug\Interop.ADODB.dll
+C:\Projects\Code Generator\SqlGenerator\obj\x86\Debug\SqlGenerator.csproj.ResolveComReference.cache
+C:\Projects\Code Generator\SqlGenerator\obj\x86\Debug\SqlGenerator.dll
+C:\Projects\Code Generator\SqlGenerator\obj\x86\Debug\SqlGenerator.pdb

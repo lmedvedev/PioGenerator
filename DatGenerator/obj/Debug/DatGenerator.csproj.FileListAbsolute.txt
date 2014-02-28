@@ -1,0 +1,8 @@
+C:\Projects\DatGenerator\bin\Debug\DatGenerator.dll
+C:\Projects\DatGenerator\bin\Debug\DatGenerator.pdb
+C:\Projects\DatGenerator\obj\Debug\DatGenerator.dll
+C:\Projects\DatGenerator\obj\Debug\DatGenerator.pdb
+C:\Projects\Code Generator\DatGenerator\bin\Debug\DatGenerator.dll
+C:\Projects\Code Generator\DatGenerator\bin\Debug\DatGenerator.pdb
+C:\Projects\Code Generator\DatGenerator\obj\Debug\DatGenerator.dll
+C:\Projects\Code Generator\DatGenerator\obj\Debug\DatGenerator.pdb

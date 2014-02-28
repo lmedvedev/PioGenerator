@@ -1,0 +1,28 @@
+C:\Projects\DB2Code\obj\Debug\DB2Code.csprojResolveAssemblyReference.cache
+C:\Projects\DB2Code\obj\Debug\SPGeneratorForms.frmMain.resources
+C:\Projects\DB2Code\obj\Debug\SPGeneratorForms.SQLDiffForm.resources
+C:\Projects\DB2Code\obj\Debug\DB2Code.csproj.GenerateResource.Cache
+C:\Projects\DB2Code\bin\Debug\Servers.xml
+C:\Projects\DB2Code\bin\Debug\SPGen.exe.config
+C:\Projects\DB2Code\bin\Debug\SPGen.exe
+C:\Projects\DB2Code\bin\Debug\SPGen.pdb
+C:\Projects\DB2Code\bin\Debug\DatGenerator.dll
+C:\Projects\DB2Code\bin\Debug\SqlGenerator.dll
+C:\Projects\DB2Code\bin\Debug\DatGenerator.pdb
+C:\Projects\DB2Code\bin\Debug\SqlGenerator.pdb
+C:\Projects\DB2Code\obj\Debug\SPGen.exe
+C:\Projects\DB2Code\obj\Debug\SPGen.pdb
+C:\Projects\Code Generator\DB2Code\bin\Debug\Servers.xml
+C:\Projects\Code Generator\DB2Code\bin\Debug\SPGen.exe.config
+C:\Projects\Code Generator\DB2Code\bin\Debug\SPGen.exe
+C:\Projects\Code Generator\DB2Code\bin\Debug\SPGen.pdb
+C:\Projects\Code Generator\DB2Code\bin\Debug\DatGenerator.dll
+C:\Projects\Code Generator\DB2Code\bin\Debug\SqlGenerator.dll
+C:\Projects\Code Generator\DB2Code\bin\Debug\DatGenerator.pdb
+C:\Projects\Code Generator\DB2Code\bin\Debug\SqlGenerator.pdb
+C:\Projects\Code Generator\DB2Code\obj\Debug\DB2Code.csprojResolveAssemblyReference.cache
+C:\Projects\Code Generator\DB2Code\obj\Debug\SPGeneratorForms.frmMain.resources
+C:\Projects\Code Generator\DB2Code\obj\Debug\SPGeneratorForms.SQLDiffForm.resources
+C:\Projects\Code Generator\DB2Code\obj\Debug\DB2Code.csproj.GenerateResource.Cache
+C:\Projects\Code Generator\DB2Code\obj\Debug\SPGen.exe
+C:\Projects\Code Generator\DB2Code\obj\Debug\SPGen.pdb

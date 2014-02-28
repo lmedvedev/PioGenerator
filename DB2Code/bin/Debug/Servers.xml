@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ServerList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Servers>
+    <Source ServerName="dkitapps" Database="DEF2" IsTrusterConnection="true">
+      <Controllers Path="C:\Projects\DEF2\Controllers\Generated" Use="true" />
+      <FilterForms Path="C:\Projects\DEF2\FilterForms\Generated" Use="true" />
+      <EntityForms Path="C:\Projects\DEF2\EntityForms\Generated" Use="true" />
+      <DBClass Path="" Use="false" />
+      <FilterClasses Path="" Use="false" />
+      <DatClasses Path="" Use="false" />
+      <SetClasses Path="" Use="false" />
+      <ColumnsClasses Path="" Use="false"/>
+    </Source>
+    <Source ServerName="dkitapps" Database="InfoStaff" IsTrusterConnection="true">
+      <Controllers Path="C:\Projects\InfoStaff\Controllers\Generated" Use="true" />
+      <FilterForms Path="C:\Projects\InfoStaff\FilterForms\Generated" Use="true" />
+      <EntityForms Path="C:\Projects\InfoStaff\EntityForms\Generated" Use="true" />
+      <DBClass Path="" Use="false" />
+      <FilterClasses Path="" Use="false" />
+      <DatClasses Path="" Use="false" />
+      <SetClasses Path="" Use="false" />
+      <ColumnsClasses Path="" Use="false"/>
+    </Source>
+    <Source ServerName="(LOCAL)" Database="PifAgent" IsTrusterConnection="true" UserLogin="" UserPassword="">
+      <Controllers Path="C:\Projects\PIFAgent-CurrentBO\PifAgentAdmin\Controllers" Use="true"/>
+      <FilterForms Path="C:\Projects\PIFAgent-CurrentBO\PifAgentAdmin\FilterForms" Use="true" />
+      <EntityForms Path="C:\Projects\PIFAgent-CurrentBO\PifAgentAdmin\EntityForms" Use="true" />
+      <DBClass Path="" Use="false" />
+      <FilterClasses Path="" Use="false" />
+      <DatClasses Path="" Use="false" />
+      <SetClasses Path="" Use="false" />
+      <ColumnsClasses Path="" Use="false"/>
+    </Source>
+    <Source ServerName="cp-vm04" Database="EPM-CNTC" IsTrusterConnection="true" UserLogin="" UserPassword="">
+      <Controllers Path="C:\develop\EpamEditorForms\Controllers\Generated" Use="true"/>
+      <FilterForms Path="C:\develop\EpamEditorForms\FilterForms\Generated" Use="true" />
+      <EntityForms Path="C:\develop\EpamEditorForms\EntityForms\Generated" Use="true" />
+      <DBClass Path="C:\develop\EpamCalc\Db\Generated" Use="true" />
+      <FilterClasses Path="C:\develop\EpamCalc\FilterClasses\Generated" Use="true" />
+      <DatClasses Path="C:\develop\EpamCalc\DatClasses\Generated" Use="true" />
+      <SetClasses Path="C:\develop\EpamCalc\SetClasses\Generated" Use="true" />
+      <ColumnsClasses Path="C:\develop\EpamCalc\ColumnClasses\Generated" Use="true"/>
+    </Source>
+    <Source ServerName="REU7" Database="N3" IsTrusterConnection="true" UserLogin="" UserPassword="">
+      <Controllers Path="C:\Flash\Projects\N3Desktop\Controllers\Generated" Use="true"/>
+      <FilterForms Path="C:\Flash\Projects\N3Desktop\FilterForms\Generated" Use="true" />
+      <EntityForms Path="C:\Flash\Projects\N3Desktop\EntityForms\Generated" Use="true" />
+      <DBClass Path="C:\Flash\Projects\N3\Generated" Use="false" />
+      <FilterClasses Path="C:\Flash\Projects\N3\FilterClasses\Generated" Use="false" />
+      <DatClasses Path="C:\Flash\Projects\N3\DatClasses\Generated" Use="false" />
+      <SetClasses Path="C:\Flash\Projects\N3\SetClasses\Generated" Use="false" />
+      <ColumnsClasses Path="C:\Flash\Projects\N3\ColumnClasses\Generated" Use="false"/>
+    </Source>
+    <Source ServerName="cp-dev01" Database="cp_SalesDev" IsTrusterConnection="true">
+      <Controllers Path="C:\Flash\Projects\N3Desktop\Napi\Controllers\Generated" Use="false" />
+      <FilterForms Path="C:\Flash\Projects\N3Desktop\Napi\FilterForms\Generated" Use="false" />
+      <EntityForms Path="C:\Flash\Projects\N3Desktop\Napi\EntityForms\Generated" Use="false" />
+      <DBClass Path="C:\Flash\Projects\Napi\Generated" Use="false" />
+      <FilterClasses Path="C:\Flash\Projects\Napi\FilterClasses\Generated" Use="false" />
+      <DatClasses Path="C:\Flash\Projects\Napi\DatClasses\Generated" Use="false" />
+      <SetClasses Path="C:\Flash\Projects\Napi\SetClasses\Generated" Use="false" />
+      <ColumnsClasses Path="C:\Flash\Projects\Napi\ColumnClasses\Generated" Use="false"/>
+    </Source>
+  </Servers>
+</ServerList>

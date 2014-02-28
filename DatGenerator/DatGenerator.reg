@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0\Generators\{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}\DatGenerator]
+@="DatGenerator"
+"CLSID"="{11337B6C-D4DF-46ce-8A69-118F1F79417A}"
+"GeneratesDesignTimeSource"=dword:00000001

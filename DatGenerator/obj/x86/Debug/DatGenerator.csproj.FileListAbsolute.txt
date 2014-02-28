@@ -1,0 +1,10 @@
+C:\Projects\DatGenerator\bin\x86\Debug\DatGenerator.dll
+C:\Projects\DatGenerator\bin\x86\Debug\DatGenerator.pdb
+C:\Projects\DatGenerator\obj\x86\Debug\DatGenerator.dll
+C:\Projects\DatGenerator\obj\x86\Debug\DatGenerator.pdb
+C:\Projects\DatGenerator\obj\x86\Debug\DatGenerator.csprojResolveAssemblyReference.cache
+C:\Projects\Code Generator\DatGenerator\bin\x86\Debug\DatGenerator.dll
+C:\Projects\Code Generator\DatGenerator\bin\x86\Debug\DatGenerator.pdb
+C:\Projects\Code Generator\DatGenerator\obj\x86\Debug\DatGenerator.dll
+C:\Projects\Code Generator\DatGenerator\obj\x86\Debug\DatGenerator.pdb
+C:\Projects\Code Generator\DatGenerator\obj\x86\Debug\DatGenerator.csprojResolveAssemblyReference.cache

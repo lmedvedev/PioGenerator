@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Global" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Global" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="_treeBaseAccounts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="FP" type="xs:string" />
+              <xs:element name="Parent_FP" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="_treeCards">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="FP" type="xs:string" />
+              <xs:element name="Parent_FP" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="_treeClients">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="FP" type="xs:string" />
+              <xs:element name="Parent_FP" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="_treeExtAccounts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="FP" type="xs:string" />
+              <xs:element name="Parent_FP" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="_treeOperations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="FP" type="xs:string" />
+              <xs:element name="Parent_FP" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BaseAccount_Cards">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="Header_id" type="xs:int" />
+              <xs:element name="CardType_id" type="xs:int" />
+              <xs:element name="TreeCard_id" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BaseAccounts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="Parent_FP" type="xs:string" />
+              <xs:element name="Code" type="xs:int" />
+              <xs:element name="Name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BaseCharts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="FP" type="xs:string" />
+              <xs:element name="Name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Cards">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="Parent_FP" type="xs:string" />
+              <xs:element name="Code" type="xs:int" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="Comment" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CardTypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="FP" type="xs:string" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="hasAmount" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Client_RegDocs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="Header_id" type="xs:int" />
+              <xs:element name="Client_id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Clients">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="Parent_FP" type="xs:string" />
+              <xs:element name="Code" type="xs:int" />
+              <xs:element name="SCode" type="xs:string" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="Comment" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ClientsFL">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="xs:int" />
+              <xs:element name="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="BirthDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="BirthPlace" type="xs:string" minOccurs="0" />
+              <xs:element name="Doc_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Doc_Seria" type="xs:string" minOccurs="0" />
+              <xs:element name="Doc_Number" type="xs:string" minOccurs="0" />
+              <xs:element name="Doc_WhenIssued" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Doc_Issuer" type="xs:string" minOccurs="0" />
+              <xs:element name="sysDate" type="xs:dateTime" />
+              <xs:element name="sysUser" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ClientsPF">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="xs:int" />
+              <xs:element name="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="RegDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RegPlace" type="xs:string" minOccurs="0" />
+              <xs:element name="sysDate" type="xs:dateTime" />
+              <xs:element name="sysUser" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ClientsUL">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="xs:int" />
+              <xs:element name="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="RegDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RegPlace" type="xs:string" minOccurs="0" />
+              <xs:element name="INN" type="xs:string" minOccurs="0" />
+              <xs:element name="sysDate" type="xs:dateTime" />
+              <xs:element name="sysUser" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ExtAccount_Cards">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="Header_id" type="xs:int" />
+              <xs:element name="CardType_id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ExtAccounts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="Parent_FP" type="xs:string" />
+              <xs:element name="Code" type="xs:int" />
+              <xs:element name="Name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ExtCharts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="FP" type="xs:string" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="BaseChart_id" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="linkAccounts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="BaseAccount_id" type="xs:int" minOccurs="0" />
+              <xs:element name="ExtChart_id" type="xs:int" minOccurs="0" />
+              <xs:element name="ExtAccount1_id" type="xs:int" minOccurs="0" />
+              <xs:element name="ExtAccount2_id" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MyTestDocument">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="RegDoc_id" type="xs:int" />
+              <xs:element name="DocNum" type="xs:string" />
+              <xs:element name="DocDate" type="xs:dateTime" />
+              <xs:element name="Client_id" type="xs:int" minOccurs="0" />
+              <xs:element name="sysUser" type="xs:string" />
+              <xs:element name="sysDate" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Operation_Details">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="Header_id" type="xs:int" />
+              <xs:element name="isDt" type="xs:boolean" />
+              <xs:element name="TreeCard_id" type="xs:int" minOccurs="0" />
+              <xs:element name="Card_id" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Operations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="Parent_FP" type="xs:string" />
+              <xs:element name="Code" type="xs:int" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="RegDocType_id" type="xs:int" minOccurs="0" />
+              <xs:element name="Dt_Account_id" type="xs:int" />
+              <xs:element name="Cr_Account_id" type="xs:int" />
+              <xs:element name="Comment" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RegDocs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="RegDocType_id" type="xs:int" />
+              <xs:element name="regDate" type="xs:dateTime" />
+              <xs:element name="docDate" type="xs:dateTime" />
+              <xs:element name="docNum" type="xs:string" />
+              <xs:element name="sysUser" type="xs:string" />
+              <xs:element name="sysDate" type="xs:dateTime" />
+              <xs:element name="Comment" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RegDocTypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="SCode" type="xs:string" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="isFixed" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Regs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="BaseAccount_id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Regs_Details">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="Header_id" type="xs:int" />
+              <xs:element name="Card_id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Transactions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="Type_id" type="xs:int" minOccurs="0" />
+              <xs:element name="Chart_id" type="xs:int" minOccurs="0" />
+              <xs:element name="Operation_id" type="xs:int" minOccurs="0" />
+              <xs:element name="RegDoc_id" type="xs:int" minOccurs="0" />
+              <xs:element name="Rec_Date" type="xs:dateTime" />
+              <xs:element name="Rec_Date2" type="xs:dateTime" />
+              <xs:element name="Client_id" type="xs:int" />
+              <xs:element name="summ" type="xs:decimal" />
+              <xs:element name="sum2" type="xs:decimal" />
+              <xs:element name="dt_id" type="xs:int" />
+              <xs:element name="cr_id" type="xs:int" />
+              <xs:element name="dt_amount" type="xs:decimal" />
+              <xs:element name="cr_amount" type="xs:decimal" />
+              <xs:element name="dt_amount2" type="xs:decimal" />
+              <xs:element name="cr_amount2" type="xs:decimal" />
+              <xs:element name="Comment" type="xs:string" minOccurs="0" />
+              <xs:element name="sysUser" type="xs:string" />
+              <xs:element name="sysDate" type="xs:dateTime" />
+              <xs:element name="dtCurrency" type="xs:decimal" />
+              <xs:element name="crCurrency" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TransTypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="SCode" type="xs:string" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="sysUser" type="xs:string" />
+              <xs:element name="sysDate" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint2">
+      <xs:selector xpath=".//_treeBaseAccounts" />
+      <xs:field xpath="FP" />
+    </xs:unique>
+    <xs:unique name="_treeCards_Constraint2" msdata:ConstraintName="Constraint2">
+      <xs:selector xpath=".//_treeCards" />
+      <xs:field xpath="FP" />
+    </xs:unique>
+    <xs:unique name="Constraint3">
+      <xs:selector xpath=".//_treeCards" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="_treeClients_Constraint2" msdata:ConstraintName="Constraint2">
+      <xs:selector xpath=".//_treeClients" />
+      <xs:field xpath="FP" />
+    </xs:unique>
+    <xs:unique name="_treeExtAccounts_Constraint2" msdata:ConstraintName="Constraint2">
+      <xs:selector xpath=".//_treeExtAccounts" />
+      <xs:field xpath="FP" />
+    </xs:unique>
+    <xs:unique name="_treeOperations_Constraint2" msdata:ConstraintName="Constraint2">
+      <xs:selector xpath=".//_treeOperations" />
+      <xs:field xpath="FP" />
+    </xs:unique>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//BaseAccounts" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="BaseCharts_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//BaseCharts" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="Cards_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//Cards" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="CardTypes_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//CardTypes" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="Clients_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//Clients" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="ExtAccounts_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//ExtAccounts" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="ExtCharts_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//ExtCharts" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="Operations_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//Operations" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="RegDocs_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//RegDocs" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="RegDocTypes_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//RegDocTypes" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="Regs_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//Regs" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="TransTypes_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//TransTypes" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:keyref name="FK_Transactions_BaseCharts" refer="BaseCharts_Constraint1">
+      <xs:selector xpath=".//Transactions" />
+      <xs:field xpath="Chart_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Transactions_Clients" refer="Clients_Constraint1">
+      <xs:selector xpath=".//Transactions" />
+      <xs:field xpath="Client_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Transactions_Operations" refer="Operations_Constraint1">
+      <xs:selector xpath=".//Transactions" />
+      <xs:field xpath="Operation_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Transactions_RegDocs" refer="RegDocs_Constraint1">
+      <xs:selector xpath=".//Transactions" />
+      <xs:field xpath="RegDoc_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Transactions_Regs_Cr" refer="Regs_Constraint1">
+      <xs:selector xpath=".//Transactions" />
+      <xs:field xpath="cr_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Transactions_Regs_Dt" refer="Regs_Constraint1">
+      <xs:selector xpath=".//Transactions" />
+      <xs:field xpath="dt_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Transactions_TransTypes" refer="TransTypes_Constraint1">
+      <xs:selector xpath=".//Transactions" />
+      <xs:field xpath="Type_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Regs_Details_Cards" refer="Cards_Constraint1">
+      <xs:selector xpath=".//Regs_Details" />
+      <xs:field xpath="Card_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Regs_Details_Regs" refer="Regs_Constraint1">
+      <xs:selector xpath=".//Regs_Details" />
+      <xs:field xpath="Header_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Regs_BaseAccounts" refer="Constraint1">
+      <xs:selector xpath=".//Regs" />
+      <xs:field xpath="BaseAccount_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_RegDocs_RegDocTypes" refer="RegDocTypes_Constraint1">
+      <xs:selector xpath=".//RegDocs" />
+      <xs:field xpath="RegDocType_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Operations_BaseAccount_Cr" refer="Constraint1">
+      <xs:selector xpath=".//Operations" />
+      <xs:field xpath="Cr_Account_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Operations_BaseAccount_Dt" refer="Constraint1">
+      <xs:selector xpath=".//Operations" />
+      <xs:field xpath="Dt_Account_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Operations_RegDocTypes" refer="RegDocTypes_Constraint1">
+      <xs:selector xpath=".//Operations" />
+      <xs:field xpath="RegDocType_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Operations_treeOperations" refer="_treeOperations_Constraint2">
+      <xs:selector xpath=".//Operations" />
+      <xs:field xpath="Parent_FP" />
+    </xs:keyref>
+    <xs:keyref name="FK_Operation_Details_Cards" refer="Cards_Constraint1">
+      <xs:selector xpath=".//Operation_Details" />
+      <xs:field xpath="Card_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Operation_Details_Operations" refer="Operations_Constraint1">
+      <xs:selector xpath=".//Operation_Details" />
+      <xs:field xpath="Header_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Operation_Details_treeCards" refer="Constraint3">
+      <xs:selector xpath=".//Operation_Details" />
+      <xs:field xpath="TreeCard_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_MyTestDocument_Clients" refer="Clients_Constraint1">
+      <xs:selector xpath=".//MyTestDocument" />
+      <xs:field xpath="Client_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_MyTestDocument_RegDocs" refer="RegDocs_Constraint1">
+      <xs:selector xpath=".//MyTestDocument" />
+      <xs:field xpath="RegDoc_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_linkAccounts_BaseAccounts" refer="Constraint1">
+      <xs:selector xpath=".//linkAccounts" />
+      <xs:field xpath="BaseAccount_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_linkAccounts_ExtAccounts" refer="ExtAccounts_Constraint1">
+      <xs:selector xpath=".//linkAccounts" />
+      <xs:field xpath="ExtAccount1_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_linkAccounts_ExtAccounts1" refer="ExtAccounts_Constraint1">
+      <xs:selector xpath=".//linkAccounts" />
+      <xs:field xpath="ExtAccount2_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_linkAccounts_ExtCharts" refer="ExtCharts_Constraint1">
+      <xs:selector xpath=".//linkAccounts" />
+      <xs:field xpath="ExtChart_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_ExtCharts_BaseCharts" refer="BaseCharts_Constraint1">
+      <xs:selector xpath=".//ExtCharts" />
+      <xs:field xpath="BaseChart_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_ExtCharts_treeExtAccounts" refer="_treeExtAccounts_Constraint2">
+      <xs:selector xpath=".//ExtCharts" />
+      <xs:field xpath="FP" />
+    </xs:keyref>
+    <xs:keyref name="FK_ExtAccounts_treeExtAccounts1" refer="_treeExtAccounts_Constraint2">
+      <xs:selector xpath=".//ExtAccounts" />
+      <xs:field xpath="Parent_FP" />
+    </xs:keyref>
+    <xs:keyref name="FK_ExtAccount_Cards_CardTypes" refer="CardTypes_Constraint1">
+      <xs:selector xpath=".//ExtAccount_Cards" />
+      <xs:field xpath="CardType_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_ExtAccount_Cards_ExtAccounts" refer="ExtAccounts_Constraint1">
+      <xs:selector xpath=".//ExtAccount_Cards" />
+      <xs:field xpath="Header_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_ClientsJUR_Clients" refer="Clients_Constraint1">
+      <xs:selector xpath=".//ClientsUL" />
+      <xs:field xpath="id" />
+    </xs:keyref>
+    <xs:keyref name="FK_ClientsNPF_Clients" refer="Clients_Constraint1">
+      <xs:selector xpath=".//ClientsPF" />
+      <xs:field xpath="id" />
+    </xs:keyref>
+    <xs:keyref name="FK_ClientsFIZ_Clients" refer="Clients_Constraint1">
+      <xs:selector xpath=".//ClientsFL" />
+      <xs:field xpath="id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Clients_Clients" refer="_treeClients_Constraint2">
+      <xs:selector xpath=".//Clients" />
+      <xs:field xpath="Parent_FP" />
+    </xs:keyref>
+    <xs:keyref name="FK_Client_RegDocs_Clients" refer="Clients_Constraint1">
+      <xs:selector xpath=".//Client_RegDocs" />
+      <xs:field xpath="Client_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Client_RegDocs_RegDocs" refer="RegDocs_Constraint1">
+      <xs:selector xpath=".//Client_RegDocs" />
+      <xs:field xpath="Header_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_CardTypes_treeCards" refer="_treeCards_Constraint2">
+      <xs:selector xpath=".//CardTypes" />
+      <xs:field xpath="FP" />
+    </xs:keyref>
+    <xs:keyref name="FK_Cards_treeCards1" refer="_treeCards_Constraint2">
+      <xs:selector xpath=".//Cards" />
+      <xs:field xpath="Parent_FP" />
+    </xs:keyref>
+    <xs:keyref name="FK_BaseCharts_treeBaseAccounts" refer="Constraint2">
+      <xs:selector xpath=".//BaseCharts" />
+      <xs:field xpath="FP" />
+    </xs:keyref>
+    <xs:keyref name="FK_BaseAccounts_treeBaseAccounts1" refer="Constraint2">
+      <xs:selector xpath=".//BaseAccounts" />
+      <xs:field xpath="Parent_FP" />
+    </xs:keyref>
+    <xs:keyref name="FK_BaseAccount_Cards_BaseAccounts" refer="Constraint1">
+      <xs:selector xpath=".//BaseAccount_Cards" />
+      <xs:field xpath="Header_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_BaseAccount_Cards_CardTypes" refer="CardTypes_Constraint1">
+      <xs:selector xpath=".//BaseAccount_Cards" />
+      <xs:field xpath="CardType_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_BaseAccount_Cards_treeCards" refer="Constraint3">
+      <xs:selector xpath=".//BaseAccount_Cards" />
+      <xs:field xpath="TreeCard_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_treeOperations_parent" refer="_treeOperations_Constraint2">
+      <xs:selector xpath=".//_treeOperations" />
+      <xs:field xpath="Parent_FP" />
+    </xs:keyref>
+    <xs:keyref name="FK_treeExtAccounts_treeExtAccounts1" refer="_treeExtAccounts_Constraint2">
+      <xs:selector xpath=".//_treeExtAccounts" />
+      <xs:field xpath="Parent_FP" />
+    </xs:keyref>
+    <xs:keyref name="FK_treeClients_treeClients" refer="_treeClients_Constraint2">
+      <xs:selector xpath=".//_treeClients" />
+      <xs:field xpath="Parent_FP" />
+    </xs:keyref>
+    <xs:keyref name="FK_treeCards_treeCards1" refer="_treeCards_Constraint2">
+      <xs:selector xpath=".//_treeCards" />
+      <xs:field xpath="Parent_FP" />
+    </xs:keyref>
+    <xs:keyref name="FK_treeBaseAccounts_treeBaseAccounts1" refer="Constraint2">
+      <xs:selector xpath=".//_treeBaseAccounts" />
+      <xs:field xpath="Parent_FP" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>
