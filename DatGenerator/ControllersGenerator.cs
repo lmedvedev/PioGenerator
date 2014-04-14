@@ -389,6 +389,7 @@ namespace DatGenerator
                     {
                         case "IDataAccess":
                         case "PathTree":
+                        case "PathTreeN":
                         case "PathCard":
                             break;
 
@@ -430,6 +431,13 @@ namespace DatGenerator
 
                             break;
 
+                        case "Byte":
+                            field.Type = new CodeTypeReference("CtlPicture");
+                            field.InitExpression = new CodeSnippetExpression("new CtlPicture()");
+                            Init.Statements.Add(new CodeSnippetExpression(string.Format("FormHelper.AddCtlPicture(ctl_{0}, pnlFlow, \"{1}\", {2}Columns.{0})", pr.Name, pr.UserData["MSDescription"].ToString().Replace("\"", "\\\""), tp.UserData["TableName"])));
+
+                            break;
+
                         case "String":
                         case "Guid":
                             if ((dat.BaseTypes.Contains("ICardDat") || dat.BaseTypes.Contains("ITreeDat")) && pr.Name == "Name")
@@ -454,7 +462,7 @@ namespace DatGenerator
                             {
                                 field.Type = new CodeTypeReference(typeof(object));
                                 field.InitExpression = new CodeSnippetExpression("new object()");
-                                Init.Statements.Add(new CodeSnippetExpression(string.Format("throw new Exception(\"no control for field {0} type {1}\")", pr.Name, pr.Type.BaseType)));
+                                //Init.Statements.Add(new CodeSnippetExpression(string.Format("throw new Exception(\"no control for field {0} type {1}\")", pr.Name, pr.Type.BaseType)));
                             }
                             break;
 

@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ServerList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Servers>
+    <Source ServerName="DKITAPPS" Database="InfoStaff" IsTrusterConnection="true">
+      <Controllers Path="C:\Projects\Staff Directory\InfoStaff\Controllers\Generated" Use="true" />
+      <FilterForms Path="C:\Projects\Staff Directory\InfoStaff\FilterForms\Generated" Use="true" />
+      <EntityForms Path="C:\Projects\Staff Directory\InfoStaff\EntityForms\Generated" Use="true" />
+      <DBClass Path="" Use="false" />
+      <FilterClasses Path="" Use="false" />
+      <DatClasses Path="" Use="false" />
+      <SetClasses Path="" Use="false" />
+      <ColumnsClasses Path="" Use="false"/>
+    </Source>
     <Source ServerName="MEDAPPS" Database="Apps" IsTrusterConnection="true">
       <Controllers Path="C:\Projects\AppsUpdater\AppsForms\Controllers\Generated" Use="true" />
       <FilterForms Path="C:\Projects\AppsUpdater\AppsForms\FilterForms\Generated" Use="true" />
@@ -55,16 +65,6 @@
       <Controllers Path="C:\Projects\InfoCodes Team Project\InfoCodes\Controllers\Generated" Use="true" />
       <FilterForms Path="C:\Projects\InfoCodes Team Project\InfoCodes\FilterForms\Generated" Use="true" />
       <EntityForms Path="C:\Projects\InfoCodes Team Project\InfoCodes\EntityForms\Generated" Use="true" />
-      <DBClass Path="" Use="false" />
-      <FilterClasses Path="" Use="false" />
-      <DatClasses Path="" Use="false" />
-      <SetClasses Path="" Use="false" />
-      <ColumnsClasses Path="" Use="false"/>
-    </Source>
-    <Source ServerName="MEDAPPS" Database="InfoStaff" IsTrusterConnection="true">
-      <Controllers Path="C:\Projects\Staff Directory\InfoStaff\Controllers\Generated" Use="true" />
-      <FilterForms Path="C:\Projects\Staff Directory\InfoStaff\FilterForms\Generated" Use="true" />
-      <EntityForms Path="C:\Projects\Staff Directory\InfoStaff\EntityForms\Generated" Use="true" />
       <DBClass Path="" Use="false" />
       <FilterClasses Path="" Use="false" />
       <DatClasses Path="" Use="false" />
